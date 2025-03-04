@@ -23,7 +23,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_03_04_143617) do
   end
 
   create_table "questions", force: :cascade do |t|
-    t.string "name", null: false
+    t.string "title", null: false
     t.string "body", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
